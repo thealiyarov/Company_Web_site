@@ -53,7 +53,7 @@ function Footerli() {
           <ul>
             <li className="font-bold mb-5">Мы в соц. сетях</li>
             <li className="font-bold mb-[69px]">
-              <img src={image} />
+              <img src={image} alt="imag" />
             </li>
           </ul>
         </div>
