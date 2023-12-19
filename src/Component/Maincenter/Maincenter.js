@@ -66,7 +66,7 @@ function Maincenter() {
         <div className="w-[1000px]  text-[36px] ">
           <p className="text-center font-bold"> 
             The main goal of the company is the development, production and
-            distribution of lighting equipment of the highest quality..
+            distribution of lighting equipment of the highest quality
           </p>
         </div>
         <div className="text-[#8E88C1] text-[16px] pt-[15px] w-[1074px] ">
