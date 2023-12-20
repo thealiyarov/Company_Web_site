@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Form from "./Form";
 
 function Mainbottom() {
   const [current, setCurrent] = useState(null);
@@ -30,6 +31,7 @@ function Mainbottom() {
         src={`https://maps.google.com/?q=${position1.lat},${position1.long}&output=embed`}
         frameborder="0"
       ></iframe>
+      <Form/>
     </div>
   );
 }
