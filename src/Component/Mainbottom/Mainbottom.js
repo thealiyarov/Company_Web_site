@@ -25,6 +25,7 @@ function Mainbottom() {
 
   return (
     <div className="Mainbottom flex flex-col items-center h-[664px] bg-[#24204A] ">
+      <h1 className="w-[899px] text-[36px] font-bold text-white text-center mt-[50px] mb-[50px] leading-[42px]">Here you will find all the necessary information about the products manufactured by our company</h1>
       <iframe
         className="relative w-[1170px] h-[480px]"
         src={`https://maps.google.com/?q=${position1.lat},${position1.long}&output=embed`}
