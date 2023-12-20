@@ -1,5 +1,6 @@
 import React from "react";
 import downarrow from '../../Assets/downarrow.svg'
+import "./Navbar.module.css"
 
 function Navbar() {
   return (
