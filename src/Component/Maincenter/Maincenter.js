@@ -11,7 +11,7 @@ import sun from "../../Assets/sun.svg";
 
 function Maincenter() {
   return (
-    <div className="maincenter pt-[50px] bg-[#071341] h-[764px] ">
+    <div className="maincenter pt-[50px] bg-[#071341] h-[792px] ">
       <div className="maincenter-top ">
         <div className=" w-[1400px] mx-auto justify-center gap-[123px] flex text-white maincenter-top ">
           <div className="flex item1 gap-[18px] items-center">
@@ -73,8 +73,8 @@ function Maincenter() {
           <p className="text-center font-medium">It is very important for us to keep up with the times</p>
         </div>
       </div>
-      <div className="maincenter-end flex justify-center mt-[58px]">
-        <div className="w-[208px] h-[300px] flex flex-col items-center relative rounded-[8px] bg-white ">
+      <div className="maincenter-end flex justify-center mt-[50px]">
+        <div className="w-[208px] h-[300px] flex flex-col items-center relative rounded-[8px]  bg-white ">
           <div><img src={rectangle} alt="" /></div>
           <div className="absolute top-[44px] w-[194px] h-[52px] flex">
               <img src={rectangle2} alt="" />
