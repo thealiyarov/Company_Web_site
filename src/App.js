@@ -1,19 +1,21 @@
 import React from "react";
-import Navbar from "./Component/Navbar/Navbar"
-import Maintop from "./Component/Maintop/Maintop";
-import Maincenter from "./Component/Maincenter/Maincenter";
-import Mainbottom from "./Component/Mainbottom/Mainbottom";
-import Footer from "./Component/Footer/Footer";
+import Products from "./Pages/Products/Products";
+import Home from "./Pages/Home/Home";
+import Contact from "./Pages/Contact/Contact";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./Component/Navbar/Navbar";
 
 function App() {
   return (
-    <div className="App ">
-      <Navbar/>
-      <Maintop/>
-      <Maincenter/>
-      <Mainbottom/>
-      <Footer/>
-    </div>
+    <>
+    <Navbar/>
+      <Routes>
+        <Route path="/" element={<Navbar />} />
+        <Route index element={<Home />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </>
   );
 }
 
