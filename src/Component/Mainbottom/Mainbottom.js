@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Form from "./Form";
 
 function Mainbottom() {
   const [current, setCurrent] = useState(null);
@@ -24,13 +25,15 @@ function Mainbottom() {
   }, []);
 
   return (
-    <div className="Mainbottom flex flex-col items-center h-[664px] bg-[#24204A] ">
+    <div className="Mainbottom flex flex-col pl-[365px] h-[664px] bg-[#24204A] ">
       <iframe
-        className="relative w-[1170px] h-[480px]"
+        className="absolute w-[1170px] h-[480px]"
         src={`https://maps.google.com/?q=${position1.lat},${position1.long}&output=embed`}
         frameborder="0"
       ></iframe>
-    </div>
+     
+     <Form absolute="relative" />
+     </div>
   );
 }
 
