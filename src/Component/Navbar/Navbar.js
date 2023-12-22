@@ -5,7 +5,7 @@ import "./Navbar.module.css"
 
 function Navbar() {
   return (
-    <div className="flex bg-[#24204A]">
+    <div className="flex bg-[#24204A] ">
       <div className=" flex flex-col  mx-auto h-[72px] justify-center">
       <div className="navbar-main  text-white   w-[1170px] h-[72px] flex justify-between items-center">
         <div className="navbar-left">
@@ -30,3 +30,4 @@ function Navbar() {
 }
 
 export default Navbar;
+

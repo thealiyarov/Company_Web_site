@@ -1,10 +1,23 @@
-import React from 'react'
+import React from "react";
+import Items from "../../Pages/Products/Items";
 
 function Products() {
   return (
-    <div className='h-[10000px] '><p>
-      dsfdsfdsfsdf</p></div>
-  )
+    <div className="bg-[#24204A]">
+      <div className="h-[662px] justify-evenly flex flex-col items-center bg-[#24204A]">
+        <Items />
+        <Items />
+      </div>
+      <div  className="h-[662px] justify-evenly flex flex-col items-center bg-[#071341]">
+        <Items />
+        <Items />
+      </div>
+      <div className="h-[662px] justify-evenly flex flex-col items-center bg-[#24204A]">
+        <Items />
+        <Items />
+      </div>
+    </div>
+  );
 }
 
-export default Products
+export default Products;
