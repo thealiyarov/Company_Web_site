@@ -1,8 +1,14 @@
 import React from 'react'
+import Mainbottom from '../../Component/Mainbottom/Mainbottom'
+import Office from '../../Pages/Contact/Office/Office'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <div>
+      <Office />
+      <Office />
+      <Mainbottom/>
+    </div>
   )
 }
 
