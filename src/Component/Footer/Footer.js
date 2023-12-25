@@ -1,68 +1,35 @@
 import React from "react";
-import image from "../../Assets/icon.svg";
+import logofoot from "../../Assets/logofoot.png"
+import linkedin from "../../Assets/linkedin.svg";
+import youtube from "../../Assets/youtube.svg";
 
 function Footer() {
   return (
-    <div className="bg-[#071341]  h-[340px] flex  flex-col ">
-      <div className=" text-[#FFF] flex items-center justify-center space-x-36 mt-2 pb-[50px]">
-        <div>
-          <ul>
-            <li className="font-bold mt-9 pt-5">One Blog</li>
-            <li className="pt-5 text-[14px] font-normal loading-7">
-              One Position
-            </li>
-            <li className="pt-2 text-[14px] font-normal loading-7">
-              One Position
-            </li>
-            <li className="pt-2 text-[14px] font-normal loading-7">
-              One Position
-            </li>
-            <li className="pt-2 text-[14px] font-normal loading-7">
-              One Position
-            </li>
-            <li className="pt-2 text-[14px] font-normal loading-7">
-              One Position
-            </li>
-          </ul>
+    <div className="bg-[#071341] w-[100%]  h-[80px] flex  flex-col items-center ">
+      <div className="w-[100%] flex flex-col items-center h-[100%]">
+      <div className=" text-[#FFF] w-[90%] flex items-center h-[100%] justify-between">
+        <div className="flex w-[30%] justify-between items-center">
+        <img className="logo w-[150px] " src={logofoot} alt="" />
+        <p className="copyright">© All rights reserved 2019 “One position”</p>
         </div>
-
-        <div>
-          <ul>
-            <li className="font-bold mt-9 pt-5 text-[16px] loading-7">
-              Our production
-            </li>
-            <li className="pt-5 text-[14px] font-normal loading-7">
-              One Position
-            </li>
-            <li className="pt-2 text-[14px] font-normal loading-7">
-              One Position
-            </li>
-            <li className="pt-2 text-[14px] font-normal loading-7">
-              One Position
-            </li>
-            <li className="pt-2 text-[14px] font-normal loading-7">
-              One Position
-            </li>
-            <li className="pt-2 text-[14px] font-normal loading-7">
-              One Position
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <ul>
-            <li className="font-bold mb-5">We are on social media networks</li>
-            <li className="font-bold mb-[69px]">
-              <img src={image} alt="foto" />
-            </li>
-          </ul>
-        </div>
-        <br />
+        <div className="socialMain flex gap-[8px]">
+            <div className="linkedin flex items-center">
+              <img
+                className="w-[40px]  cursor-pointer"
+                src={linkedin}
+                alt="Linkedin"
+              />
+            </div>
+            <div className="youtube flex items-center ">
+              <img
+                className="w-[40px] cursor-pointer"
+                src={youtube}
+                alt="Youtube"
+              />
+            </div>
+          </div>
       </div>
-      <div>
-        <h className="ml-[680px] text-[#fff] mb-[15px]  font-medium mt-9 pt-5 text-[12px] loading-7">
-          © All rights reserved 2019 “One position”
-        </h>
+      
       </div>
     </div>
   );
