@@ -1,5 +1,6 @@
 import React from "react";
 import {Outlet,NavLink } from "react-router-dom";
+import logo from "../../Assets/logo.png"
 import "./Navbar.module.css"
 
 function Navbar() {
@@ -8,7 +9,7 @@ function Navbar() {
       <div className=" flex flex-col  mx-auto h-[72px] justify-center">
       <div className="navbar-main  text-white   w-[1170px] h-[72px] flex justify-between items-center">
         <div className="navbar-left">
-          <p>one position</p>
+        <li className="list-none"><NavLink to="/"> <img className="w-[150px]" src={logo} alt="logo" /></NavLink></li>
         </div>
         <div className=" navbar-right  ">
           <ul className="flex gap-[60px] text-[#a7a6b7]">
