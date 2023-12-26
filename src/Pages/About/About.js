@@ -1,4 +1,5 @@
 import React from "react";
+import Slider from "./Slider";
 
 function About() {
   return (
@@ -22,7 +23,7 @@ function About() {
           <div className="topRight flex flex-col gap-[10px] text-white w-[40%]">
             <div className="detailsContainer rounded-[8px] ">
             <details open className="mb-[5px]">
-              <summary className="list-none bg-footColor py-[8px] pl-[10px] rounded-[6px] font-bold ">Lorem, ipsum dolor.</summary>
+              <summary className="list-none bg-footColor py-[8px] pl-[10px] rounded-[6px] font-bold cursor-pointer">Lorem, ipsum dolor.</summary>
               <p className="break-words text-textColor px-[10px] py-[6px]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Temporibus nisi velit vel repellendus accusantium earum natus
@@ -33,7 +34,7 @@ function About() {
             </div>
             <div className="detailsContainer rounded-[8px] ">
             <details className="mb-[5px]">
-              <summary className="list-none bg-footColor py-[8px] pl-[10px] rounded-[6px] font-bold ">Lorem, ipsum dolor.</summary>
+              <summary className="list-none bg-footColor py-[8px] pl-[10px] rounded-[6px] font-bold cursor-pointer">Lorem, ipsum dolor.</summary>
               <p className="break-words text-textColor px-[10px] py-[6px]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Temporibus nisi velit vel repellendus accusantium earum natus
@@ -44,7 +45,7 @@ function About() {
             </div>  
             <div className="detailsContainer rounded-[8px] ">
             <details className="mb-[5px]">
-              <summary className="list-none bg-footColor py-[8px] pl-[10px] rounded-[6px] font-bold ">Lorem, ipsum dolor.</summary>
+              <summary className="list-none bg-footColor py-[8px] pl-[10px] rounded-[6px] font-bold cursor-pointer">Lorem, ipsum dolor.</summary>
               <p className="break-words text-textColor px-[10px] py-[6px]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Temporibus nisi velit vel repellendus accusantium earum natus
@@ -57,8 +58,8 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="aboutBottom w-[100%] flex justify-center bg-footColor">
-        <div className="bottom w-[1170px] bg-slate-400">sdsd</div>
+      <div className="aboutBottom w-[1170px] flex justify-center bg-footColor">
+        <Slider/>
       </div>
     </div>
   );

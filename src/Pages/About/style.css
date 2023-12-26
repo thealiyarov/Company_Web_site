@@ -1,0 +1,9 @@
+.swiper-slide {
+  opacity: 8%;
+
+}
+
+.swiper-slide-active {
+    opacity: 100%;
+    width: 90%;
+}
