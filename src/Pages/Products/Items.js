@@ -3,8 +3,8 @@ import image from "../../Assets/itemFrame.svg";
 
 function Items({img , itemName , itemDesc}) {
   return (
-    <div className="items-container flex justify-center  ">
-      <div className="items flex justify-around gap-[70px] h-[250px] items-center  w-[1170px] rounded-[8px]">
+    <div className="items-container flex justify-center w-[100%]">
+      <div className="items flex justify-around gap-[70px] h-[250px] items-center  w-[62%] rounded-[8px]">
         <div className="item-left">
           <div className="w-[210px] h-[210px] relative flex justify-center items-center">
             <img className="w-[210px] h-[210px]" src={image} alt="itemframe" />

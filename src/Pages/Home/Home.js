@@ -6,7 +6,7 @@ import Mainbottom from "../../Component/Mainbottom/Mainbottom";
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App w-[100%] ">
       <Maintop/>
       <Maincenter/>
       <Mainbottom/>

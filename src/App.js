@@ -9,7 +9,7 @@ import About from "./Pages/About/About";
 
 function App() {
   return (
-    <>
+    <div>
     <Navbar/>
       <Routes>
         <Route path="/" element={<Navbar />} />
@@ -19,7 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
       </Routes>
       <Footer/>
-    </>
+    </div>
   );
 }
 
