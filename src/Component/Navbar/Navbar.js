@@ -16,7 +16,7 @@ function Navbar() {
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/products">Products</NavLink></li>
             <li className="flex gap-[14px]"><NavLink to="/contact">Contact</NavLink></li>
-            <li><NavLink to="/about">About Us</NavLink></li>
+            <li><NavLink to="/about"></NavLink></li>
           </ul>
         </div>
       </div>
