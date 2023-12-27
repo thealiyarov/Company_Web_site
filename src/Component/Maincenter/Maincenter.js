@@ -1,5 +1,5 @@
 import React from "react";
-import "./Maincenter.module.css";
+import "./Maincenter.css";
 import itemmain from "../../Assets/ledmain.svg";
 import led1 from "../../Assets/led1.svg";
 import led2 from "../../Assets/led2.svg";
@@ -7,15 +7,17 @@ import led3 from "../../Assets/led3.svg";
 import led4 from "../../Assets/led4.svg";
 import rectangle from "../../Assets/Rectangle.svg";
 import rectangle2 from "../../Assets/Rectangle2.svg";
+import Office from "../../Assets/OfficeBuilding1.jpg";
 import sun from "../../Assets/sun.svg";
 
 function Maincenter() {
   return (
     <div className="maincenter w-[100%] pt-[50px] pb-[50px] flex flex-col items-center bg-[#071341] h-auto">
       <div className="maincenter-top flex flex-col items-center w-[62%] ">
-        <div className="w-[100%] ">
-          <div className=" w-[100%] mx-auto justify-center flex text-white maincenter-top ">
-            <div className="flex item1 w-[20%]  justify-between items-center">
+        <div className="maincenter-top container w-[100%] ">
+          <div className="maincenter-top main w-[100%] mx-auto justify-center flex text-white maincenter-top ">
+            <div className="hidden maincenter-top image"><img src={Office} alt="" /></div>
+            <div className="item item1 flex w-[20%]  justify-between items-center">
               <div className=" w-[25%] flex justify-center bg-[#FF6853] rounded-[8px]">
                 <img className="w-[100%]" src={itemmain} alt="" />
               </div>
@@ -24,7 +26,7 @@ function Maincenter() {
                 <p className="text-[#8E88C1] leading-[24px]">Products</p>
               </div>
             </div>
-            <div className="flex item2 w-[20%] justify-between items-center">
+            <div className="item item2 flex w-[20%] justify-between items-center">
               <div className="w-[25%]  flex justify-center bg-[#FF537C] rounded-[8px]">
                 <img className="w-[100%]" src={led1} alt="" />
               </div>
@@ -33,7 +35,7 @@ function Maincenter() {
                 <p className="text-[#8E88C1] leading-[24px]">Products</p>
               </div>
             </div>
-            <div className="flex item3 w-[20%]  justify-between items-center">
+            <div className="item item3 flex w-[20%]  justify-between items-center">
               <div className="w-[25%]  flex justify-center bg-[#80D2C4] rounded-[8px]">
                 <img className="w-[100%]" src={led2} alt="" />
               </div>
@@ -42,7 +44,7 @@ function Maincenter() {
                 <p className="text-[#8E88C1] leading-[24px]">Products</p>
               </div>
             </div>
-            <div className="flex item4 w-[20%]  justify-between items-center">
+            <div className="item item4 flex w-[20%]  justify-between items-center">
               <div className="w-[25%]  flex justify-center bg-[#3F50E7] rounded-[8px]">
                 <img className="w-[100%]" src={led3} alt="" />
               </div>
@@ -51,7 +53,7 @@ function Maincenter() {
                 <p className="text-[#8E88C1] leading-[24px]">Products</p>
               </div>
             </div>
-            <div className="flex item5 w-[20%] justify-between items-center">
+            <div className="item item5 flex w-[20%] justify-between items-center">
               <div className="w-[25%]  flex justify-center bg-[#95CB7C] rounded-[8px]">
                 <img className="w-[100%]" src={led4} alt="" />
               </div>
@@ -61,18 +63,18 @@ function Maincenter() {
               </div>
             </div>
           </div>
-          <div className="w-[100%] h-[1px] bg-[#8E88C1] mt-[50px] mx-auto "></div>
+          <div className="maincenter-top line w-[100%] h-[1px] bg-[#8E88C1] mt-[50px] mx-auto "></div>
         </div>
       </div>
       <div className="maincenter-center  pt-[34px] flex flex-col items-center mx-auto w-[62%] text-white">
-        <div className="w-[80%]  text-[36px] ">
-          <p className="text-center font-bold">
+        <div className="header-container w-[80%] text-[10px] ">
+          <p className="header text-center text-[36px] font-bold">
             The main goal of the company is the development, production and
             distribution of lighting equipment of the highest quality
           </p>
         </div>
-        <div className="text-[#8E88C1] text-[16px] pt-[15px] w-[50%] ">
-          <p className="text-center  font-medium">
+        <div className="header-container text-[#8E88C1] text-[16px] pt-[15px] w-[50%] ">
+          <p className="text text-center  font-medium">
             It is very important for us to keep up with the times
           </p>
         </div>
