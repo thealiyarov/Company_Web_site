@@ -23,11 +23,11 @@ function Mainbottom() {
 
 
   return (
-    <div className="Mainbottom  flex flex-col items-center h-[664px] bg-[#24204A] ">
-      <h1 className="text-[36px] font-bold text-white w-[899px] h-[84px] text-center mt-[50px] mb-[50px] ">Here you will find all the necessary information about the products manufactured by our company</h1>
-      <div className="relative">
-      <iframe title="map"
-        className="relative  w-[1170px] h-[480px]"
+    <div className="Mainbottom w-[100%]  flex flex-col items-center h-[680px] pb-[30px] bg-[#24204A] ">
+      <h1 className="text-[36px] font-bold text-white w-[47%] h-auto text-center pt-[50px] pb-[50px] ">Here you will find all the necessary information about the products manufactured by our company</h1>
+      <div className="relative w-[62%] h-[90%]">
+      <iframe title="map "
+        className="relative  w-[100%] h-[100%]"
         src={`https://maps.google.com/?q=${position1.lat},${position1.long}&output=embed`}
         frameborder="0"
       ></iframe>

@@ -4,8 +4,8 @@ import ideaimage from '../../Assets/idea.svg'
 
 function Maintop() {
   return (
-    <div className="maintop pt-[46px] flex  h-[595px] bg-[#24204A]">
-      <div className="maintop-main w-[1170px]  flex justify-between mx-auto">
+    <div className="maintop pt-[46px] flex w-[100%]  h-[595px] bg-[#24204A]">
+      <div className="maintop-main w-[62%]  flex justify-between mx-auto">
         <div className="maintop-left  w-[573px] h-[393px]">
           <button className="w-[145px] h-[41px] mt-[30px] mb-[38px] bg-[#4B4864] rounded-[8px] text-[#8E88C1] ">One position</button>
           <p className="text-[36px] text-white font-bold">One position</p>

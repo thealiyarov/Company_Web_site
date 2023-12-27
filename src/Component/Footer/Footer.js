@@ -8,9 +8,9 @@ function Footer() {
     <div className="bg-[#071341] w-[100%]  h-[80px] flex  flex-col items-center ">
       <div className="w-[100%] flex flex-col items-center h-[100%]">
       <div className=" text-[#FFF] w-[90%] flex items-center h-[100%] justify-between">
-        <div className="flex w-[30%] justify-between items-center">
-        <img className="logo w-[150px] " src={logofoot} alt="" />
-        <p className="copyright">© All rights reserved 2019 “One position”</p>
+        <div className="flex w-[50%] justify-between items-center">
+          <img className="logo w-[20%] " src={logofoot} alt="" />
+          <p className="copyright w-[70%]">© All rights reserved 2019 “One position”</p>
         </div>
         <div className="socialMain flex gap-[8px]">
             <div className="linkedin flex items-center">
@@ -29,7 +29,6 @@ function Footer() {
             </div>
           </div>
       </div>
-      
       </div>
     </div>
   );

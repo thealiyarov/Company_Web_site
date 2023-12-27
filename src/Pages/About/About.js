@@ -3,7 +3,7 @@ import Slider from "./Slider";
 
 function About() {
   return (
-    <div className="topContainer flex flex-col items-center  bg-slate-600">
+    <div className="topContainer flex flex-col items-center  bg-footColor">
       <div className="aboutTop w-[100%] flex justify-center bg-navColor">
         <div className="top w-[1170px] flex mt-[20px] mb-[20px] justify-between ">
           <div className="topLeft w-[55%]">
@@ -58,7 +58,11 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="aboutBottom w-[1170px] flex justify-center bg-footColor">
+      <div className=" w-[100%] flex flex-col items-center py-[50px]">
+        <h1 className="text-white text-[36px] text-center w-[30%] font-bold leading-[40px]">We know the formula of a successful partnership!</h1>
+        <p className="text-textColor text-center w-[40%] mt-[20px]">We carefully attend to the wishes and needs of each customer and strive to deliver the best. With a focus on customer satisfaction, we continuously work to improve the quality of our services. Adopting an open approach to feedback, we aim to provide solution-oriented services by engaging with our customers. We make every effort to meet the expectations of each customer and ensure their satisfaction is maintained at the highest level.</p>
+        </div>
+      <div className="aboutBottom w-[1170px] flex  justify-center pb-[100px] bg-footColor">
         <Slider/>
       </div>
     </div>
