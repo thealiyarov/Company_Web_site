@@ -2,18 +2,13 @@
   .copyright {
     display: none;
   }
-  .footer-main {
-    gap: 15px;
+  .footer-main{
     display: flex;
+    gap: 65px;
     justify-content: space-around;
   }
   .logo{
-    width: 80%;
+    width: 50%;
   }
-  .socialMain{
-    width: 20%;
-  }
-  .footer-container{
-    height: 50px;
-  }
+ 
 }
