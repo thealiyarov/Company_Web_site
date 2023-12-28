@@ -27,10 +27,16 @@
     display: block;
   }
   .maincenter-top .main {
+    place-content: space-between ;
     height: auto;
     display: grid;
-    grid-template-columns: auto auto;
-    gap: 30px;
+    grid-template-columns: 160px 160px;
+    gap: 20px;
+  }
+  .item div:nth-child(1){
+    
+    width: 30%;
+    height: auto;
   }
   .maincenter-top .flex{
     width: 100%;

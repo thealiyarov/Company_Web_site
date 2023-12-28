@@ -15,8 +15,8 @@ function Maincenter() {
         <div className="maincenter-top container w-[100%] ">
           <div className="maincenter-top main w-[100%] mx-auto justify-center flex text-white maincenter-top ">
             <div className="item item1 flex w-[20%]  justify-between items-center">
-              <div className=" w-[25%] flex justify-center bg-[#FF6853] rounded-[8px]">
-                <img className="w-[100%]" src={itemmain} alt="" />
+              <div className="aytim w-[25%] flex justify-center bg-[#FF6853] rounded-[8px]">
+                <img className="w-[100%] h-[100%]" src={itemmain} alt="" />
               </div>
               <div className="w-[70%]">
                 <p className="font-bold text-[16px]">+3400</p>
