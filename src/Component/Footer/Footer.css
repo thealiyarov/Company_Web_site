@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+  .copyright {
+    display: none;
+  }
+  .footer-main {
+    gap: 15px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .logo{
+    width: 80%;
+  }
+  .socialMain{
+    width: 20%;
+  }
+  .footer-container{
+    height: 50px;
+  }
+}

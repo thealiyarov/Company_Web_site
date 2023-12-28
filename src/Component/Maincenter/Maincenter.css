@@ -26,4 +26,30 @@
     margin-top: 40px;
     display: block;
   }
+  .maincenter-top .main {
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+  }
+  .maincenter-top .flex{
+    width: 100%;
+  }
+  .maincenter-top .container{
+    padding-top: 40px;
+    width: 125%;
+  }
+  .maincenter-top .line{
+    margin-top: 20px;
+  }
+  .item > div >p{
+    padding-left: 10px;
+    font-size: 13px;
+  }
+  .item > div{
+    width: 50%;
+  }
+  .maincenter-center{
+    padding-left: 4px;
+  }
 }

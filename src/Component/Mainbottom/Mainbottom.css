@@ -1,0 +1,20 @@
+@media screen and (max-width: 768px) {
+    .form{
+        display: none;
+    }
+    .mainbottom h1{
+        display: none;
+    }
+    .iframe-map{
+        padding-top: 30px;
+        width: 100%;
+        height: auto;
+    }
+    .mainbottom .map{
+        width: 80%;
+    }
+    .mainbottom.container{
+        height: auto;
+        width: 95%;
+    }
+}
