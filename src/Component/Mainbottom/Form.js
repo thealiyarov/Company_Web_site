@@ -2,7 +2,7 @@ import React from "react";
 import { Formik } from "formik";
 
 const Form = ({ absolute }) => (
-  <div className={`${absolute}  flex justify-center items-center w-[449px] rounded-[8px] h-[380px] top-[30px] right-[115px] bg-[#4B4864]`}>
+  <div className={`${absolute} form  flex justify-center items-center w-[449px] rounded-[8px] h-[380px] top-[30px] right-[115px] bg-[#4B4864]`}>
     
       <Formik
         initialValues={{ email: "", password: "" }}

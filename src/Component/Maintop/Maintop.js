@@ -14,7 +14,7 @@ function Maintop() {
             placeat dolor temporibus, optio eum ipsum minima, iste deleniti
             nisi? Enim?
           </p>
-          <button className="maintop-left button w-[25%] h-[46px] font-bold bg-[#3F50E7] text-white rounded-[8px] mt-[50px] ">Button</button>
+          <button className="maintop-left hover:opacity-90 button w-[25%] h-[46px] font-bold bg-[#3F50E7] text-white rounded-[8px] mt-[50px] ">Button</button>
         </div>
         <div className="maintop-right image w-[40%] h-auto"><img src={ideaimage} alt="Ideaimage" />
         </div>

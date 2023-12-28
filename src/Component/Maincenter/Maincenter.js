@@ -4,10 +4,8 @@ import itemmain from "../../Assets/ledmain.svg";
 import led1 from "../../Assets/led1.svg";
 import led2 from "../../Assets/led2.svg";
 import led3 from "../../Assets/led3.svg";
-import led4 from "../../Assets/led4.svg";
 import rectangle from "../../Assets/Rectangle.svg";
 import rectangle2 from "../../Assets/Rectangle2.svg";
-import Office from "../../Assets/OfficeBuilding1.jpg";
 import sun from "../../Assets/sun.svg";
 
 function Maincenter() {
@@ -16,13 +14,12 @@ function Maincenter() {
       <div className="maincenter-top flex flex-col items-center w-[62%] ">
         <div className="maincenter-top container w-[100%] ">
           <div className="maincenter-top main w-[100%] mx-auto justify-center flex text-white maincenter-top ">
-            <div className="hidden maincenter-top image"><img src={Office} alt="" /></div>
             <div className="item item1 flex w-[20%]  justify-between items-center">
               <div className=" w-[25%] flex justify-center bg-[#FF6853] rounded-[8px]">
                 <img className="w-[100%]" src={itemmain} alt="" />
               </div>
               <div className="w-[70%]">
-                <p className="font-bold text-[10px] md:text-[16px]">+3400</p>
+                <p className="font-bold text-[16px]">+3400</p>
                 <p className="text-[#8E88C1] leading-[24px]">Products</p>
               </div>
             </div>
@@ -50,15 +47,6 @@ function Maincenter() {
               </div>
               <div className="w-[70%]">
                 <p className="font-bold text-[16px]">+500</p>
-                <p className="text-[#8E88C1] leading-[24px]">Products</p>
-              </div>
-            </div>
-            <div className="item item5 flex w-[20%] justify-between items-center">
-              <div className="w-[25%]  flex justify-center bg-[#95CB7C] rounded-[8px]">
-                <img className="w-[100%]" src={led4} alt="" />
-              </div>
-              <div className="w-[70%]">
-                <p className="font-bold text-[16px]">+900</p>
                 <p className="text-[#8E88C1] leading-[24px]">Products</p>
               </div>
             </div>
