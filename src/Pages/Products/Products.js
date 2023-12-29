@@ -11,16 +11,6 @@ function Products() {
   return (
     <div className="bg-[#24204A]">
       <div className="h-[662px] justify-evenly flex flex-col items-center bg-[#24204A]">
-        <Items />
-        <Items />
-      </div>
-      <div className="h-[662px] justify-evenly flex flex-col items-center bg-[#071341]">
-        <Items />
-        <Items />
-      </div>
-      <div className="h-[662px] justify-evenly flex flex-col items-center bg-[#24204A]">
-        <Items />
-        <Items />
         <Items
           img={image1}
           itemName="Item Name 1"
