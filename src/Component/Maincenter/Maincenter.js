@@ -37,7 +37,7 @@ function Maincenter() {
                 <img className="w-[100%]" src={led2} alt="" />
               </div>
               <div className="w-[70%]">
-                <p className="font-bold text-[16px]">+800</p>
+                <p className="font-bold text-[16px]">+800...</p>
                 <p className="text-[#8E88C1] leading-[24px]">Products</p>
               </div>
             </div>
