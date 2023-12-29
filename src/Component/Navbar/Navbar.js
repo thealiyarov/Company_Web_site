@@ -35,9 +35,9 @@ function Navbar() {
                 </li>
               </ul>
             </label>
-            <div className="navbar-line w-[90%] h-[1px] bg-[#a7a6b7] "></div>
           </div>
         </div>
+        <div className="navbar-line w-[90%] h-[1px] bg-[#a7a6b7] "></div>
       </div>
     </div>
   );
