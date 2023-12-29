@@ -12,7 +12,7 @@ function Navbar() {
           <div className="navbar-left w-[50%]">
             <li className="list-none">
               <NavLink to="/">
-                <img className="w-[150px] " src={logo} alt="logo" />
+                <img className="w-[150px] " src={logo} alt="logoo" />
               </NavLink>
             </li>
           </div>
