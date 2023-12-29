@@ -12,7 +12,7 @@ function Maintop() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
             voluptatum rem magnam et nam omnis corporis accusamus amet quos
             placeat dolor temporibus, optio eum ipsum minima, iste deleniti
-            nisi? Enim?.
+            nisi? Enim?
           </p>
           <button className="maintop-left hover:opacity-90 button w-[25%] h-[46px] font-bold bg-[#3F50E7] text-white rounded-[8px] mt-[50px] ">Button</button>
         </div>
