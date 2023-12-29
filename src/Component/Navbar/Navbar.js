@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet, NavLink } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 import logo from "../../Assets/logonav.png";
 import hamburger from "../../Assets/hamburger-menu.svg";
 import "./Navbar.css";
@@ -35,13 +35,11 @@ function Navbar() {
                 </li>
               </ul>
             </label>
-          </div>
+          <div className="navbar-line w-[90%] h-[1px] bg-[#a7a6b7] "></div>
         </div>
-        <div className="navbar-line w-[90%] h-[1px] bg-[#a7a6b7] "></div>
       </div>
-      <Outlet />
     </div>
-  );
+  )
 }
 
 export default Navbar;
