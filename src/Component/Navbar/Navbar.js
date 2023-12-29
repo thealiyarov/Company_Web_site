@@ -6,11 +6,15 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div className="flex bg-[#24204A]">
-      <div className=" flex flex-col  mx-auto h-[72px] justify-center">
-        <div className="navbar-main  text-white   w-[1170px] h-[72px] flex justify-between items-center">
-          <div className="navbar-left">
-            <p>one position</p>
+    <div className="flex bg-[#24204A] flex-col w-[100%]">
+      <div className="navbar-container flex flex-col w-[100%]  mx-auto h-[72px] items-center justify-center">
+        <div className="navbar-main w-[90%] pl-[0px] h-[72px] flex justify-between items-center">
+          <div className="navbar-left w-[50%]">
+            <li className="list-none">
+              <NavLink to="/">
+                <img className="w-[150px] " src={logo} alt="logoo" />
+              </NavLink>
+            </li>
           </div>
           <div className=" navbar-right w-auto  flex">
             <label className="label flex" htmlFor="check">
