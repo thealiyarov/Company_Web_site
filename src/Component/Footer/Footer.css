@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+  .copyright {
+    display: none;
+  }
+  .footer-main{
+    display: flex;
+    gap: 65px;
+    justify-content: space-around;
+  }
+  .logo{
+    width: 50%;
+  }
+ 
+}

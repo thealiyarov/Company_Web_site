@@ -1,8 +1,8 @@
 import React from "react";
 import { Formik } from "formik";
 
-const Form = ({ absolute, hover }) => (
-  <div className={`${absolute}  flex justify-center items-center w-[449px] rounded-[8px] h-[380px] top-[50px] right-[115px] bg-[#4B4864]`}>
+const Form = ({ absolute }) => (
+  <div className={`${absolute} form  flex justify-center items-center w-[38%] rounded-[8px] h-[90%] top-[25px] right-[115px] bg-[#4B4864]`}>
     
       <Formik
         initialValues={{ email: "", password: "" }}
@@ -34,19 +34,17 @@ const Form = ({ absolute, hover }) => (
           isSubmitting,
         }) => (
           <form
-            className="w-[377px] h-[326px] flex flex-col  bg-[#4B4864]"
-            onSubmit={handleSubmit}
-          >
-            <h1 className="text-white text-[26px] font-bold ">Ask a Question</h1>
-            <p className="text-[#8E88C1]">The company's managers will be happy to answer your questions and calculate the cost of services</p>
-            <input placeholder="Name" className="bg-[#646081] w-[377px] h-[42px] rounded-[8px] mb-[16px] pl-[20px] mt-[34px] "
+            className="form-container w-[84%] h-[326px] flex flex-col  bg-[#4B4864]" onSubmit={handleSubmit}>
+            <h1 className="form-h1 text-white text-[26px] font-bold ">Ask a Question</h1>
+            <p  className="form-text text-[#8E88C1]">The company's managers will be happy to answer your questions and calculate the cost of services</p>
+            <input placeholder="Name" className="input input1 bg-[#646081] w-[100%] h-[42px] rounded-[8px] mb-[16px] pl-[20px] mt-[34px] "
               type="text"
               name="text"
               onChange={handleChange}
               onBlur={handleBlur}
               value={values.password}
             />
-            <input className="bg-[#646081] w-[377px] h-[42px] rounded-[8px] mb-[16px] pl-[20px] "
+            <input className="input  bg-[#646081] w-[100%] h-[42px] rounded-[8px] mb-[16px] pl-[20px] "
               type="tel"
               name="tel"
               placeholder="Telephone number"
@@ -54,7 +52,7 @@ const Form = ({ absolute, hover }) => (
               onBlur={handleBlur}
               value={values.email}
             />
-            <input className="bg-[#646081] w-[377px] h-[42px] rounded-[8px] pl-[20px] mb-[16px]  "
+            <input className="input bg-[#646081] w-[100%] h-[42px] rounded-[8px] pl-[20px] mb-[16px]  "
               type="email"
               name="email"
               placeholder="Email"
@@ -65,9 +63,11 @@ const Form = ({ absolute, hover }) => (
 
             
             {errors.password && touched.password && errors.password}
-            <div className="flex justify-end"><button className="text-white w-[126px] h-[40px] bg-[#3F50E7] rounded-[8px]  " type="submit" disabled={isSubmitting}>
+            <div className="flex justify-end">
+              <button className="form-button text-white w-[126px] h-[40px] bg-[#3F50E7] rounded-[8px]  " type="submit" disabled={isSubmitting}>
               Submit
-            </button></div>
+            </button>
+            </div>
           </form>
         )}
       </Formik>

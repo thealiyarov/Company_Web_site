@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+  .maintop-main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .maintop-right img {
+    width: 150px;
+    height: 150px;
+  }
+  .maintop-right.image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    width: auto;
+    height: auto;
+  }
+  .maintop-left .bottomPosition {
+    font-size: 12px;
+    margin-top: 30px;
+  }
+  .maintop-left .button {
+    width: 30%;
+    height: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .maintop-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .maintop-left.main {
+    align-items: center;
+    width: 80%;
+  }
+  .maintop {
+    height: 575px;
+  }
+}

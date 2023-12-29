@@ -1,11 +1,12 @@
 import React from "react";
-import downarrow from '../../Assets/downarrow.svg'
-import {Outlet,NavLink } from "react-router-dom";
-import "./Navbar.module.css"
+import { Outlet, NavLink } from "react-router-dom";
+import logo from "../../Assets/logonav.png";
+import hamburger from "../../Assets/hamburger-menu.svg";
+import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div className="flex bg-[#24204A] ">
+    <div className="flex bg-[#24204A]">
       <div className=" flex flex-col  mx-auto h-[72px] justify-center">
       <div className="navbar-main  text-white   w-[1170px] h-[72px] flex justify-between items-center">
         <div className="navbar-left">
@@ -20,11 +21,9 @@ function Navbar() {
             <li><NavLink to="/blog">Blog</NavLink></li>
           </ul>
         </div>
+        <div className="navbar-line w-[90%] h-[1px] bg-[#a7a6b7] "></div>
       </div>
-      <div className="w-[1170px] h-[1px] bg-[#a7a6b7] "></div>
-      
-    </div>
-    <Outlet />
+      <Outlet />
     </div>
   );
 }

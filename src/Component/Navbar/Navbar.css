@@ -1,0 +1,68 @@
+@media screen and (max-width: 768px) {
+  .ul {
+    padding: 20px 0;
+    padding-left: 30px;
+    gap: 10px;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 71px;
+    width: 100%;
+    background-color: #071341;
+    display: none;
+    flex-direction: column;
+    transition: ease-in-out;
+  
+  }
+  
+  li a{
+    position: relative;
+  }
+  label li a::after{
+    transition: .5s ease-in-out;
+    transform: scale(2);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    content: "";
+    width: 0;
+    background-color: white;
+    height: 1px;
+
+
+  }
+  label li a:hover::after{
+    transition: .5s ease-in-out;
+    transform: scale(1);
+    width: 130%;
+  }
+  label .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  label .checkbox {
+    appearance: none;
+    display: block;
+  }
+  .checkbox:checked ~ .ul li{
+    opacity: 70%;
+  }
+  .checkbox:checked ~ .ul{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding:30px 30px;
+    gap: 30px;
+    display: flex;
+  }
+  .checkbox:checked ~ .ul li:hover{
+    opacity: 100%;
+  }
+}
+.checkbox,
+.hamburger {
+  display: none;
+}
+ul li {
+  cursor: pointer;
+}
