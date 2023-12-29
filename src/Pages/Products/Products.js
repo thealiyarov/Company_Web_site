@@ -13,8 +13,12 @@ function Products() {
       <div className="h-[662px] justify-evenly flex flex-col items-center bg-[#24204A]">
         <Items
           img={image1}
-          itemName="Item Name 1"
-          itemDesc="Item Description 1 "
+          itemName="sint commodi repudiandae consequuntur voluptatum laborum"
+          itemDesc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+          molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+          numquam blanditiis harum Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+          molestiae quas vel sint autem. Veritatis
+          obcaecati tenetur iure eius earum ut molestias"
         />
         <Items
           img={image2}
