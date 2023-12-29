@@ -31,7 +31,7 @@ function Navbar() {
                   <NavLink to="/contact">Contact</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/about">About</NavLink>
+                  <NavLink to="/about">About Us</NavLink>
                 </li>
               </ul>
             </label>
