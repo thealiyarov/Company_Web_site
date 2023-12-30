@@ -15,39 +15,53 @@ function Products() {
           img={image1}
           itemName="sint commodi repudiandae consequuntur voluptatum laborum"
           itemDesc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-          molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+          molestiae quas vel sint untur voluptatum laborum
           numquam blanditiis harum Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-          molestiae quas vel sint autem. Veritatis
-          obcaecati tenetur iure eius earum ut molestias"
+          molestiae quas vel sint autem. Veritati"
         />
         <Items
           img={image2}
           itemName="Item Name 2"
-          itemDesc="Item Description 2"
+          itemDesc="Item Description 2olor sit amet consectetur adipisicing elit. Maxime mollitia,
+          molestiae quas vel sint untur voluptatum laborum
+          numquam blanditiis harum Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+          molestiae quas vel sint autem. Veritati"
         />
       </div>
       <div className="h-[662px] justify-evenly flex flex-col items-center bg-[#071341]">
         <Items
           img={image3}
           itemName="Item Name 3"
-          itemDesc="Item Description 3"
+          itemDesc="Item Description 2olor sit amet consectetur adipisicing elit. Maxime mollitia,
+          molestiae quas vel sint untur voluptatum laborum
+          numquam blanditiis harum Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+          molestiae quas vel sint autem. Veritati"
         />
         <Items
           img={image4}
           itemName="Item Name 4"
-          itemDesc="Item Description 4"
+          itemDesc="Item Description 2olor sit amet consectetur adipisicing elit. Maxime mollitia,
+          molestiae quas vel sint untur voluptatum laborum
+          numquam blanditiis harum Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+          molestiae quas vel sint autem. Veritati"
         />
       </div>
       <div className="h-[662px] justify-evenly flex flex-col items-center bg-[#24204A]">
         <Items
           img={image5}
           itemName="Item Name 5"
-          itemDesc="Item Description 5"
+          itemDesc="Item Description 2olor sit amet consectetur adipisicing elit. Maxime mollitia,
+          molestiae quas vel sint untur voluptatum laborum
+          numquam blanditiis harum Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+          molestiae quas vel sint autem. Veritati"
         />
         <Items
           img={image6}
           itemName="Item Name 6"
-          itemDesc="Item Description 6"
+          itemDesc="Item Description 2olor sit amet consectetur adipisicing elit. Maxime mollitia,
+          molestiae quas vel sint untur voluptatum laborum
+          numquam blanditiis harum Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+          molestiae quas vel sint autem. Veritati"
         />
       </div>
     </div>
