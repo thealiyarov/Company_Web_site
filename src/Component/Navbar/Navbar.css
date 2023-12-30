@@ -44,11 +44,13 @@
   label .checkbox {
     appearance: none;
     display: block;
+   
   }
   .checkbox:checked ~ .ul li{
     opacity: 70%;
   }
   .checkbox:checked ~ .ul{
+    z-index: 9999;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding:30px 30px;

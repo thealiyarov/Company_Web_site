@@ -1,16 +1,19 @@
 @media screen and (max-width: 768px) {
   .itemleftMain {
-    width: 40%;
+    width: 35%;
+
   }
   .items {
-    gap: 20px;
-    width: 80%;
+    gap: 10px;
+    width: 92%;
     height: 150px;
+    
   }
   .item-right {
     width: 100%;
     height: 120px;
   }
+ 
   .itemborder {
     height: 120px;
   }
@@ -19,36 +22,68 @@
     margin-top: 0px;
     display: flex;
     height: 120px;
+    width: 100%;
     flex-direction: column;
-    justify-content: space-evenly;
+    
   }
 
   .item-right-top {
-    font-size: 25px;
+    font-size: 16px;
+    width: 95%;
+
   }
+  
   .item-right-bottom {
-    font-size: 14px;
+    font-size: 12px;
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-inline-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+  
+    width: 95%;
+    height: 70px;
   }
 }
+@media screen and (min-width:768px) and (max-width:991px){
+ .items{
+  align-items: start;
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.itemleftMain{
+  height: auto;
+}
+.itemLeft{
+  height: 100%;
+}
+.item-right{
+  width: 100%;
+  height: 125px;
 
-.content {
-    height: 20px; 
-    overflow: hidden; 
-  }
+}
+.itemborder{
+  margin-top: 10px;
+  margin-bottom: 0;
+  height: 1px;
+  width: 100%;
+}
+.item-right-container{
+  margin-top: 0;
+  margin-left: 0;
+
+}
+.items-container{
   
-  .read-more {
-    display: block;
-    margin-top: 5px;
-  }
-  
-
-  .show-more {
-    height: auto; 
-    overflow: visible; 
-  }
-
-  .itemP {
-    white-space: nowrap; 
-    overflow: hidden; 
-    text-overflow: ellipsis; 
-  }
+  gap: 0;
+}
+.itemh{
+  font-size: 16px;
+}
+.itemP{
+  font-size: 12px;
+}
+}
