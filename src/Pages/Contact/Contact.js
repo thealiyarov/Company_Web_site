@@ -4,6 +4,7 @@ import Office from "../../Pages/Contact/Office/Office";
 import Communication from "./Communication/Communication";
 import officeBuilding1 from "../../Assets/OfficeBuilding1.jpg";
 import officeBuilding2 from "../../Assets/OfficeBuilding2.jpg";
+import '../Contact/Office/Office.css'
 
 function Contact() {
   return (

@@ -22,10 +22,10 @@ function Map() {
 
 
   return (
-    <div className="Mainbottom flex flex-col items-center bg-[#24204A] ">
-      <div className="relative">
+    <div className="Mainbottom flex w-[100%] flex-col items-center bg-[#24204A] ">
+      <div className="w-[100%] relative">
       <iframe title="map"
-        className="relative  w-[250px] h-[200px]"
+        className="relative  w-[100%] h-[200px]"
         src={`https://maps.google.com/?q=${position1.lat},${position1.long}&output=embed&z=13`}
         frameborder="0"
       ></iframe>
