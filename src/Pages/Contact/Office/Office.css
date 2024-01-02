@@ -1,0 +1,58 @@
+@media screen and (max-width:768px) {
+    .office-left{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        gap:30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .officeImage{
+        width: 100%;
+    }
+    .officeImage img{
+        width: 70%;
+    }
+    .office{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .officeDesc{
+        gap: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .details{
+        gap: 10px;
+        width: 135%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .officeName{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .officeMap{
+        width: 100%;
+    }
+    .details p{
+        text-align: center;
+    }
+    .itemborder{
+        margin-left: 0;
+        width: 70%;
+        height: 1px;
+    }
+  .map-container{
+    display: none;
+  }
+  
+ 
+}
+

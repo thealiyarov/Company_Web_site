@@ -23,7 +23,7 @@ function Mainbottom() {
   }, []);
 
   return (
-    <div className=" w-[100%] bg-[#24204A] flex h-[100%] justify-center">
+    <div className="map-container w-[100%] bg-[#24204A] flex h-[100%] justify-center">
       <div className="mainbottom container w-[62%]    flex flex-col items-center h-[680px] pb-[30px] bg-[#24204A] ">
         <h1 className="mainbottom h1 text-[36px] font-bold text-white w-[100%] h-auto text-center pt-[50px] pb-[50px] ">
           Here you will find all the necessary information about the products
