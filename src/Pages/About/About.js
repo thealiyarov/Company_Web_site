@@ -17,7 +17,7 @@ function About() {
               cupiditate doloribus at repellendus praesentium libero saepe, nemo
               magni modi magnam ullam? Fugiat, voluptates doloribus sapiente
               alias enim aspernatur animi iure rerum culpa commodi quisquam
-              omnis voluptas aperiam sint totam nemo harum velit maiores sequi?
+              omnis voluptas aperiam sint totam nemo harum velit maiores sequi?.
             </p>
           </div>
           <div className="topRight flex flex-col gap-[10px] text-white w-[40%]">
