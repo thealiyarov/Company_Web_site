@@ -57,6 +57,14 @@
     gap: 30px;
     display: flex;
   }
+ 
+  .checkbox:checked ~  .toggleUl {
+    display:none;
+  }
+  /* .checkbox:checked ~  .toggleMenu {
+   
+    display:flex;
+  } */
   .checkbox:checked ~ .ul li:hover{
     opacity: 100%;
   }
