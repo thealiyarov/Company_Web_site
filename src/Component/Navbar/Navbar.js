@@ -1,27 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../../Assets/logonav.png";
 import hamburger from "../../Assets/hamburger-menu.svg";
 import "./Navbar.css";
 
 function Navbar() {
-  const [closeToggle, setClosetoggle] = useState(true);
-  const [menu, setMenu] = useState(false);
-
-  function toggleMenu() {
-    setClosetoggle(!closeToggle);
-  }
+  const [menu, setMenu] = useState(true);
 
   function liFn() {
-    setMenu(true);
-    
+    setMenu(!menu);
   }
-
-  useEffect(() => {
-    if (closeToggle) {
-      setMenu(false);
-    }
-  }, [closeToggle]);
 
   return (
     <div className="flex bg-[#24204A] flex-col w-[100%]">
@@ -38,28 +26,28 @@ function Navbar() {
             <label className="label flex" htmlFor="check">
               <input className="checkbox " type="checkbox" name="" id="check" />
               <img
-                onClick={toggleMenu}
+                onClick={liFn}
                 className="hamburger w-[30px] "
                 src={hamburger}
                 alt=""
               />
-              <ul
+              <ul onClick={liFn}
                 className={`ul w-[100%] flex gap-[60px] text-[#a7a6b7]  ${
-                  menu ? "toggleUl" : " "
+                  menu ? "toggleUl" : "toogleOpen"
                 } `}
               >
                 <li className="">
-                  <NavLink onClick={liFn} to="/">
+                  <NavLink  to="/">
                     Home
                   </NavLink>
                 </li>
-                <li onClick={liFn}>
+                <li >
                   <NavLink to="/products">Products</NavLink>
                 </li>
-                <li onClick={liFn}>
+                <li >
                   <NavLink to="/contact">Contact</NavLink>
                 </li>
-                <li onClick={liFn}>
+                <li >
                   <NavLink to="/about">About</NavLink>
                 </li>
               </ul>

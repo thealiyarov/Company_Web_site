@@ -13,7 +13,7 @@ function Office(props) {
             alt=""
           />
           </div>
-          <div className="itemborder w-[1px] h-[200px] ml-[15px] border-solid-1px border border-[#8E88C1]"></div>
+          <div className="itemborderOffice w-[1px] h-[200px] ml-[15px] border-solid-1px border border-[#8E88C1]"></div>
           <div className="officeDesc flex gap-[50px] ml-[10px] w-[70%]">
             <p className="officeName w-[50%] h-auto flex justify-center items-center  break-all text-[30px] text-center font-bold text-white ">
               {props.name}

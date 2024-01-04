@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import Slider from "./Slider";
 
 function About() {
+
+  const [acikIndex,setAcikIndex]=useState(1) 
+
+  const handleDetayClick = (index,e) => {
+    e.preventDefault()
+    setAcikIndex(index);
+  };
+  
   return (
     <div className="topContainer flex flex-col items-center  bg-footColor">
       <div className="aboutTop w-[100%] flex justify-center bg-navColor">
@@ -22,7 +30,7 @@ function About() {
           </div>
           <div className="topRight flex flex-col gap-[10px] text-white w-[40%]">
             <div className="detailsContainer rounded-[8px] ">
-              <details open className="mb-[5px]">
+              <details  open={acikIndex === 1}  className="mb-[5px]" onClick={(e) => handleDetayClick(1,e)}>
                 <summary className="list-none bg-footColor py-[8px] pl-[10px] rounded-[6px] font-bold cursor-pointer">
                   Lorem, ipsum dolor.
                 </summary>
@@ -35,7 +43,7 @@ function About() {
               </details>
             </div>
             <div className="detailsContainer rounded-[8px] ">
-              <details className="mb-[5px]">
+              <details  open={acikIndex === 2}  className="mb-[5px]" onClick={(e) => handleDetayClick(2,e)}>
                 <summary className="list-none bg-footColor py-[8px] pl-[10px] rounded-[6px] font-bold cursor-pointer">
                   Lorem, ipsum dolor.
                 </summary>
@@ -48,7 +56,7 @@ function About() {
               </details>
             </div>
             <div className="detailsContainer rounded-[8px] ">
-              <details className="mb-[5px]">
+              <details  open={acikIndex === 3}  className="mb-[5px]" onClick={(e) => handleDetayClick(3,e)}>
                 <summary className="list-none bg-footColor py-[8px] pl-[10px] rounded-[6px] font-bold cursor-pointer">
                   Lorem, ipsum dolor.
                 </summary>
