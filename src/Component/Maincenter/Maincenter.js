@@ -18,7 +18,7 @@ function Maincenter() {
               <div className="aytim w-[25%] flex justify-center bg-[#FF6853] rounded-[8px]">
                 <img className="w-[100%] h-[100%]" src={itemmain} alt="" />
               </div>
-              <div className="w-[70%]">
+              <div className="itemDesc w-[70%]">
                 <p className="font-bold text-[16px]">+3400</p>
                 <p className="text-[#8E88C1] leading-[24px]">Products</p>
               </div>
@@ -27,7 +27,7 @@ function Maincenter() {
               <div className="w-[25%]  flex justify-center bg-[#FF537C] rounded-[8px]">
                 <img className="w-[100%]" src={led1} alt="" />
               </div>
-              <div className="w-[70%]">
+              <div className="itemDesc w-[70%]">
                 <p className="font-bold text-[16px]">+1200</p>
                 <p className="text-[#8E88C1] leading-[24px]">Products</p>
               </div>
@@ -36,7 +36,7 @@ function Maincenter() {
               <div className="w-[25%]  flex justify-center bg-[#80D2C4] rounded-[8px]">
                 <img className="w-[100%]" src={led2} alt="" />
               </div>
-              <div className="w-[70%]">
+              <div className="itemDesc w-[70%]">
                 <p className="font-bold text-[16px]">+800...</p>
                 <p className="text-[#8E88C1] leading-[24px]">Products</p>
               </div>
@@ -45,7 +45,7 @@ function Maincenter() {
               <div className="w-[25%]  flex justify-center bg-[#3F50E7] rounded-[8px]">
                 <img className="w-[100%]" src={led3} alt="" />
               </div>
-              <div className="w-[70%]">
+              <div className="itemDesc w-[70%]">
                 <p className="font-bold text-[16px]">+500</p>
                 <p className="text-[#8E88C1] leading-[24px]">Products</p>
               </div>
