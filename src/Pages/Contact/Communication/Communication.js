@@ -17,8 +17,8 @@ function Communication() {
           <Telephone Img={locationIMg} name="Headquarter" desc1="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam." />
         </div>
         <div className="Communation-right w-[21%]">
-          <div className="socialMain">
-            <div className="linkedin flex items-center">
+          <div className="socialMain w-[100%] flex flex-col items-center">
+            <div className="linkedin  flex items-center">
               <img
                 className="w-[60px]  cursor-pointer"
                 src={linkedin}
