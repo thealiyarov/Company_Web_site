@@ -9,12 +9,16 @@ function Footer() {
       <div className="w-[100%] flex flex-col items-center h-[100%]">
         <div className="footer-main text-[#FFF] w-[90%] flex items-center h-[100%] justify-between">
           <div className="flex logo-main w-[50%] justify-between items-center">
-            <img className="logo w-[20%] cursor-pointer " src={logofoot} alt="" />
+            <img
+              className="logo w-[20%] cursor-pointer "
+              src={logofoot}
+              alt=""
+            />
             <p className=" copyright w-[70%]">
-              © All rights reserved 2019 “One position”
+              © All rights reserved 2024 “One Position”
             </p>
           </div>
-          <div className="socialMain flex gap-[8px]">
+          <div className="socialMain w-[5%]  flex gap-[8px]">
             <div className="linkedin flex items-center">
               <img
                 className="w-[40px]  cursor-pointer"
